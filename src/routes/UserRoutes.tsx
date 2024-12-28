@@ -1,6 +1,6 @@
 import { RouteObject } from 'react-router';
-import { UserLayout } from '../layouts';
-import { About, Contact, Home, Services } from '../modules/User/pages';
+import UserLayout from '../layout';
+import { About, Contact, Home, Services } from '../pages';
 import { PageNotFound } from '../components';
 
 const UserRoutes: Array<RouteObject> = [
