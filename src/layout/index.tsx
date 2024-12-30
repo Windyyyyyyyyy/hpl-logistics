@@ -1,32 +1,46 @@
-import { Outlet } from 'react-router';
+import { Link, Outlet } from 'react-router';
 
 const UserLayout = () => {
   return (
     <>
       <header className="z-[22] flex h-[158px] w-full flex-col">
         <div className="mx-auto px-0 py-[18px]">
-          <div className="h-full w-[970px] px-[15px]">
-            <div className="float-left">HPL Logo</div>
-            <div className="float-right flex">
-              <div>
-                <p>Call us</p>
-                <p>(+84)009898789</p>
-              </div>
-              <div>
-                <p>Working Hours</p>
-                <p>Mon - Fri 9am to 6pm</p>
-              </div>
-              <div>
-                <p>Email us</p>
-                <p>hpl@gmail.com</p>
-              </div>
-              <button>Request a Quote</button>
+          <div className="flex h-full w-[1080px] items-center justify-between px-[15px]">
+            <div className="inline-block leading-[55px]">
+              <Link to="/">
+                <img
+                  src="https://hopphatlog.com/wp-content/uploads/2022/01/logo-191-1.png"
+                  alt="Logo HPL"
+                  width={170}
+                  height={50}
+                />
+              </Link>
+            </div>
+            <div className="flex">
+              <section className="relative mr-[50px]">
+                <span className="absolute right-[-25px] top-1/2 h-[43px] w-[1px] translate-y-[-50%] bg-[#f1f1f1]"></span>
+                <h5 className="text-sm-txt pb-2 font-normal text-[#8f97a7]">Call us</h5>
+                <h4 className="text-body font-normal text-[#0c1832]">(+84)009898789</h4>
+              </section>
+              <section className="relative mr-[50px]">
+                <span className="absolute right-[-25px] top-1/2 h-[43px] w-[1px] translate-y-[-50%] bg-[#f1f1f1]"></span>
+                <h5 className="text-sm-txt pb-2 font-normal text-[#8f97a7]">Working Hours</h5>
+                <h4 className="text-body font-normal text-[#0c1832]">Mon - Fri 9am to 6pm</h4>
+              </section>
+              <section className="relative mr-[50px]">
+                <span className="absolute right-[-25px] top-1/2 h-[43px] w-[1px] translate-y-[-50%] bg-[#f1f1f1]"></span>
+                <h5 className="text-sm-txt pb-2 font-normal text-[#8f97a7]">Email us</h5>
+                <h4 className="text-body font-normal text-[#0c1832]">hpl@gmail.com</h4>
+              </section>
+              <button className="text-body z-[2] overflow-hidden rounded-[5px] bg-[#2ecc71] px-[26px] py-0 text-center leading-[47px] text-[#fff]">
+                <Link to="/request-quote">Request a Quote</Link>
+              </button>
             </div>
           </div>
         </div>
-        <div>
-          <nav className="bg-blue-400">
-            <div>
+        <div className="bg-[#052c7d]">
+          <nav className="border-none bg-transparent">
+            <div className="flex">
               <ul>
                 <li>
                   <p>Home</p>
@@ -41,17 +55,23 @@ const UserLayout = () => {
                   <p>Contact</p>
                 </li>
               </ul>
-              <div>
-                <p>Search</p>
-                <div>
-                  <p>Icon</p>
-                  <select name="language" id="language">
-                    <option value="vietnam">Vi</option>
-                    <option value="english">En</option>
-                    <option value="chinese">Zh</option>
-                  </select>
-                </div>
-              </div>
+              <ul>
+                <li>
+                  <div>
+                    <input type="text" />
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <p>Icon</p>
+                    <select name="language" id="language">
+                      <option value="vietnam">Vi</option>
+                      <option value="english">En</option>
+                      <option value="chinese">Zh</option>
+                    </select>
+                  </div>
+                </li>
+              </ul>
             </div>
           </nav>
         </div>

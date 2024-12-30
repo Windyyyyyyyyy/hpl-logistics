@@ -1,6 +1,6 @@
 import { RouteObject } from 'react-router';
 import UserLayout from '../layout';
-import { About, Contact, Home, Services } from '../pages';
+import { About, Contact, Home, RequestQuote, Services } from '../pages';
 import { PageNotFound } from '../components';
 
 const UserRoutes: Array<RouteObject> = [
@@ -26,6 +26,11 @@ const UserRoutes: Array<RouteObject> = [
       {
         path: 'contact',
         element: <Contact />,
+      },
+
+      {
+        path: 'request-quote',
+        element: <RequestQuote />,
       },
     ],
   },
