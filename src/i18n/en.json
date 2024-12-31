@@ -1,0 +1,22 @@
+{
+
+    "contact_us" : {
+        "title": "Contact Us",
+        "contact_form": {
+            "title": "CONTACT FORM",
+            "name_label": "Your name",
+            "email_label": "Email",
+            "subject_label": "Subject",
+            "message_label": "Message",
+            "submit_button": "SEND MESSAGE"
+        },
+        "contact_info": {
+            "title": "CONTACT DETAILS",
+            "address": "585 Tung Thien Vuong Street, Ward 12, District 8, Ho Chi Minh City",
+            "phone_1": "0909 769 906",
+            "phone_2": "(028) 221 15 806",
+            "email": "info@hopphatlog.com"
+        }
+    }
+
+}
