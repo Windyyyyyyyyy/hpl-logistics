@@ -1,0 +1,22 @@
+{
+
+    "contact_us" : {
+        "title": "Liên Hệ",
+        "contact_form": {
+            "title": "Mẫu liên hệ",
+            "name_label": "Tên của bạn",
+            "email_label": "Email",
+            "subject_label": "Tiêu đề",
+            "message_label": "Tin nhắn liên hệ",
+            "submit_button": "GỬI"
+        },
+        "contact_info": {
+            "title": "Thông tin chi tiết",
+            "address": "585 Tùng Thiện Vương, Phường 12, Quận 8, Thành phố Hồ Chí Minh",
+            "phone_1": "0909 769 906",
+            "phone_2": "(028) 221 15 806",
+            "email": "info@hopphatlog.com"
+        }
+    }
+
+}
