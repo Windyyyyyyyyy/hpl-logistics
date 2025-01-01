@@ -2,6 +2,7 @@ import { RouteObject } from 'react-router';
 import UserLayout from '../layout';
 import { About, Contact, Home, RequestQuote, Services } from '../pages';
 import { PageNotFound } from '../components';
+import FaqPage from '../pages/FAQ';
 
 const UserRoutes: Array<RouteObject> = [
   {
@@ -26,6 +27,10 @@ const UserRoutes: Array<RouteObject> = [
       {
         path: 'contact',
         element: <Contact />,
+      },
+      {
+        path: 'FAQ',
+        element: <FaqPage />,
       },
 
       {
