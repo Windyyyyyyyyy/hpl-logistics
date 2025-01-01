@@ -1,67 +1,67 @@
 {
-    "contact_us": {
-        "title": "Contact Us",
-        "contact_form": {
-            "title": "CONTACT FORM",
-            "name_label": "Your name",
-            "email_label": "Email",
-            "subject_label": "Subject",
-            "message_label": "Message",
-            "submit_button": "SEND MESSAGE"
-        },
-        "contact_info": {
-            "title": "CONTACT DETAILS",
-            "address": "585 Tung Thien Vuong Street, Ward 12, District 8, Ho Chi Minh City",
-            "phone_1": "0909 769 906",
-            "phone_2": "(028) 221 15 806",
-            "email": "info@hopphatlog.com"
-        }
+  "contact_us": {
+    "title": "Contact Us",
+    "contact_form": {
+      "title": "CONTACT FORM",
+      "name_label": "Your name",
+      "email_label": "Email",
+      "subject_label": "Subject",
+      "message_label": "Message",
+      "submit_button": "SEND MESSAGE"
     },
-    "404": {
-        "title": "404",
-        "text": "Not Found",
-        "message": "The resource requested could not be found on this server!",
-        "back_button": "Go Back"
-    },
-    "common": {
-        "home": "Home",
-        "fqa": "FQA",
-        "frequently_asked_questions": "Frequently Asked Questions"
-    },
-    "faq": {
-        "questions": {
-            "1": {
-                "question": "What is delivery charge for remote area?",
-                "answer": "Remote area surcharge is applied for delivery or pick up from an area beyond airline/courier company's standard areas, which are less accessible for picking up and deliveries."
-            },
-            "2": {
-                "question": "I am not in China but my products need to be shipped to overseas, can u guys do it?",
-                "answer": "Yes, definitely. We are your one-stop shipping solution. We have a worldwide network. So where ever your cargo is, we can ship it for you to any overseas address across all over the world."
-            },
-            "3": {
-                "question": "If our cargo is not in Shenzhen, can you handle it ?",
-                "answer": "We can handle air and sea shipments from nearest airport, seaport. But for courier shipments we need get cargo to our Shenzhen warehouse first. FBA prep service can be only available in our Shenzhen warehouse."
-            },
-            "4": {
-                "question": "What does FOB and EXW mean?",
-                "answer": "FOB means free on board, if you choose the FOB term; supplier needs to cover the local shipping costs before cargo leaves China. EXW means EX WORKS, if you choose EXW, you need to cover all shipment cost from your supplier's place to the final destination address."
-            },
-            "5": {
-                "question": "What is the whole process of FBA shipment?",
-                "answer": "We have a FBA work flow which could be offered upon request."
-            },
-            "6": {
-                "question": "How do we make payments to you?",
-                "answer": "You can make payment to us by bank wire after shipment is cleared from customs and before we deliver to destination port."
-            },
-            "7": {
-                "question": "Where is your warehouse in China?",
-                "answer": "We have our own warehouse in Shenzhen and Shanghai city."
-            },
-            "8": {
-                "question": "We have different suppliers who also export to one destination port; Can you ship cargo together?",
-                "answer": "Yes, you can. By doing so, each vendor can save his shipping costs."
-            }
-        }
+    "contact_info": {
+      "title": "CONTACT DETAILS",
+      "address": "585 Tung Thien Vuong Street, Ward 12, District 8, Ho Chi Minh City",
+      "phone_1": "0909 769 906",
+      "phone_2": "(028) 221 15 806",
+      "email": "info@hopphatlog.com"
     }
+  },
+  "404": {
+    "title": "404",
+    "text": "Not Found",
+    "message": "The resource requested could not be found on this server!",
+    "back_button": "Go Back"
+  },
+  "common": {
+    "home": "Home",
+    "fqa": "FQA",
+    "frequently_asked_questions": "Frequently Asked Questions"
+  },
+  "faq": {
+    "questions": {
+      "1": {
+        "question": "What is delivery charge for remote area?",
+        "answer": "Remote area surcharge is applied for delivery or pick up from an area beyond airline/courier company's standard areas, which are less accessible for picking up and deliveries."
+      },
+      "2": {
+        "question": "I am not in China but my products need to be shipped to overseas, can u guys do it?",
+        "answer": "Yes, definitely. We are your one-stop shipping solution. We have a worldwide network. So where ever your cargo is, we can ship it for you to any overseas address across all over the world."
+      },
+      "3": {
+        "question": "If our cargo is not in Shenzhen, can you handle it ?",
+        "answer": "We can handle air and sea shipments from nearest airport, seaport. But for courier shipments we need get cargo to our Shenzhen warehouse first. FBA prep service can be only available in our Shenzhen warehouse."
+      },
+      "4": {
+        "question": "What does FOB and EXW mean?",
+        "answer": "FOB means free on board, if you choose the FOB term; supplier needs to cover the local shipping costs before cargo leaves China. EXW means EX WORKS, if you choose EXW, you need to cover all shipment cost from your supplier's place to the final destination address."
+      },
+      "5": {
+        "question": "What is the whole process of FBA shipment?",
+        "answer": "We have a FBA work flow which could be offered upon request."
+      },
+      "6": {
+        "question": "How do we make payments to you?",
+        "answer": "You can make payment to us by bank wire after shipment is cleared from customs and before we deliver to destination port."
+      },
+      "7": {
+        "question": "Where is your warehouse in China?",
+        "answer": "We have our own warehouse in Shenzhen and Shanghai city."
+      },
+      "8": {
+        "question": "We have different suppliers who also export to one destination port; Can you ship cargo together?",
+        "answer": "Yes, you can. By doing so, each vendor can save his shipping costs."
+      }
+    }
+  }
 }
