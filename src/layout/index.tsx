@@ -5,7 +5,7 @@ import { Link, Outlet } from 'react-router';
 const UserLayout = () => {
   return (
     <header>
-      <div className="flex justify-center bg-white px-0 py-[18px]">
+      <div className="flex justify-center px-0 py-[18px]">
         <div className="flex h-full w-[1080px] items-center justify-between px-[15px]">
           <div className="inline-block leading-[55px]">
             <Link to="/">
@@ -130,7 +130,7 @@ const UserLayout = () => {
           </div>
         </nav>
       </div>
-      <main className="flex-grow">
+      <main className="">
         <Outlet />
       </main>
       <footer className="bg-[url(./assets/images/footer-bg.jpg)] bg-cover bg-scroll bg-center bg-no-repeat px-0 pb-[56px] pt-[88px]">
