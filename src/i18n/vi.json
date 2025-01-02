@@ -1,67 +1,67 @@
 {
-    "contact_us": {
-        "title": "Liên Hệ",
-        "contact_form": {
-            "title": "Mẫu liên hệ",
-            "name_label": "Tên của bạn",
-            "email_label": "Email",
-            "subject_label": "Tiêu đề",
-            "message_label": "Tin nhắn liên hệ",
-            "submit_button": "GỬI"
-        },
-        "contact_info": {
-            "title": "Thông tin chi tiết",
-            "address": "585 Tùng Thiện Vương, Phường 12, Quận 8, Thành phố Hồ Chí Minh",
-            "phone_1": "0909 769 906",
-            "phone_2": "(028) 221 15 806",
-            "email": "info@hopphatlog.com"
-        }
+  "contact_us": {
+    "title": "Liên Hệ",
+    "contact_form": {
+      "title": "Mẫu liên hệ",
+      "name_label": "Tên của bạn",
+      "email_label": "Email",
+      "subject_label": "Tiêu đề",
+      "message_label": "Tin nhắn liên hệ",
+      "submit_button": "GỬI"
     },
-    "404": {
-        "title": "404",
-        "text": "Không tìm thấy",
-        "message": "Không tìm thấy tài nguyên được yêu cầu trên máy chủ này!",
-        "back_button": "Trở về"
-    },
-    "common": {
-        "home": "Trang chủ",
-        "fqa": "Câu hỏi thường gặp",
-        "frequently_asked_questions": "Các câu hỏi thường gặp"
-    },
-    "faq": {
-        "questions": {
-            "1": {
-                "question": "Chi phí giao hàng cho vùng xa là bao nhiêu?",
-                "answer": "Phụ phí vùng xa được áp dụng cho việc giao hàng hoặc lấy hàng từ các khu vực ngoài vùng hoạt động tiêu chuẩn của hãng hàng không/chuyển phát, là những khu vực khó tiếp cận để lấy và giao hàng."
-            },
-            "2": {
-                "question": "Tôi không ở Trung Quốc nhưng cần vận chuyển sản phẩm ra nước ngoài, bạn có thể làm được không?",
-                "answer": "Có, chắc chắn rồi. Chúng tôi là giải pháp vận chuyển toàn diện cho bạn. Chúng tôi có mạng lưới toàn cầu. Vì vậy, dù hàng hóa của bạn ở đâu, chúng tôi đều có thể vận chuyển đến bất kỳ địa chỉ nào trên thế giới."
-            },
-            "3": {
-                "question": "Nếu hàng hóa không ở Thâm Quyến, bạn có thể xử lý được không?",
-                "answer": "Chúng tôi có thể xử lý vận chuyển đường hàng không và đường biển từ sân bay, cảng biển gần nhất. Tuy nhiên đối với chuyển phát nhanh, chúng tôi cần nhận hàng tại kho Thâm Quyến trước. Dịch vụ chuẩn bị FBA chỉ có sẵn tại kho Thâm Quyến của chúng tôi."
-            },
-            "4": {
-                "question": "FOB và EXW nghĩa là gì?",
-                "answer": "FOB nghĩa là giao hàng tại cảng, nếu bạn chọn điều khoản FOB; nhà cung cấp cần thanh toán chi phí vận chuyển nội địa trước khi hàng rời Trung Quốc. EXW nghĩa là lấy hàng tại xưởng, nếu bạn chọn EXW, bạn cần thanh toán toàn bộ chi phí vận chuyển từ địa điểm của nhà cung cấp đến địa chỉ đích cuối cùng."
-            },
-            "5": {
-                "question": "Quy trình vận chuyển FBA là như thế nào?",
-                "answer": "Chúng tôi có quy trình làm việc FBA chi tiết và sẽ cung cấp theo yêu cầu."
-            },
-            "6": {
-                "question": "Chúng tôi thanh toán cho bạn bằng cách nào?",
-                "answer": "Bạn có thể thanh toán cho chúng tôi bằng chuyển khoản ngân hàng sau khi hàng đã thông quan và trước khi chúng tôi giao hàng đến cảng đích."
-            },
-            "7": {
-                "question": "Kho của bạn ở đâu tại Trung Quốc?",
-                "answer": "Chúng tôi có kho riêng tại thành phố Thâm Quyến và Thượng Hải."
-            },
-            "8": {
-                "question": "Chúng tôi có nhiều nhà cung cấp cũng xuất hàng đến cùng một cảng đích; Bạn có thể gộp hàng vận chuyển cùng nhau không?",
-                "answer": "Có, bạn có thể. Bằng cách này, mỗi nhà cung cấp có thể tiết kiệm chi phí vận chuyển."
-            }
-        }
+    "contact_info": {
+      "title": "Thông tin chi tiết",
+      "address": "585 Tùng Thiện Vương, Phường 12, Quận 8, Thành phố Hồ Chí Minh",
+      "phone_1": "0909 769 906",
+      "phone_2": "(028) 221 15 806",
+      "email": "info@hopphatlog.com"
     }
+  },
+  "404": {
+    "title": "404",
+    "text": "Không tìm thấy",
+    "message": "Không tìm thấy tài nguyên được yêu cầu trên máy chủ này!",
+    "back_button": "Trở về"
+  },
+  "common": {
+    "home": "Trang chủ",
+    "fqa": "Câu hỏi thường gặp",
+    "frequently_asked_questions": "Các câu hỏi thường gặp"
+  },
+  "faq": {
+    "questions": {
+      "1": {
+        "question": "Chi phí giao hàng cho vùng xa là bao nhiêu?",
+        "answer": "Phụ phí vùng xa được áp dụng cho việc giao hàng hoặc lấy hàng từ các khu vực ngoài vùng hoạt động tiêu chuẩn của hãng hàng không/chuyển phát, là những khu vực khó tiếp cận để lấy và giao hàng."
+      },
+      "2": {
+        "question": "Tôi không ở Trung Quốc nhưng cần vận chuyển sản phẩm ra nước ngoài, bạn có thể làm được không?",
+        "answer": "Có, chắc chắn rồi. Chúng tôi là giải pháp vận chuyển toàn diện cho bạn. Chúng tôi có mạng lưới toàn cầu. Vì vậy, dù hàng hóa của bạn ở đâu, chúng tôi đều có thể vận chuyển đến bất kỳ địa chỉ nào trên thế giới."
+      },
+      "3": {
+        "question": "Nếu hàng hóa không ở Thâm Quyến, bạn có thể xử lý được không?",
+        "answer": "Chúng tôi có thể xử lý vận chuyển đường hàng không và đường biển từ sân bay, cảng biển gần nhất. Tuy nhiên đối với chuyển phát nhanh, chúng tôi cần nhận hàng tại kho Thâm Quyến trước. Dịch vụ chuẩn bị FBA chỉ có sẵn tại kho Thâm Quyến của chúng tôi."
+      },
+      "4": {
+        "question": "FOB và EXW nghĩa là gì?",
+        "answer": "FOB nghĩa là giao hàng tại cảng, nếu bạn chọn điều khoản FOB; nhà cung cấp cần thanh toán chi phí vận chuyển nội địa trước khi hàng rời Trung Quốc. EXW nghĩa là lấy hàng tại xưởng, nếu bạn chọn EXW, bạn cần thanh toán toàn bộ chi phí vận chuyển từ địa điểm của nhà cung cấp đến địa chỉ đích cuối cùng."
+      },
+      "5": {
+        "question": "Quy trình vận chuyển FBA là như thế nào?",
+        "answer": "Chúng tôi có quy trình làm việc FBA chi tiết và sẽ cung cấp theo yêu cầu."
+      },
+      "6": {
+        "question": "Chúng tôi thanh toán cho bạn bằng cách nào?",
+        "answer": "Bạn có thể thanh toán cho chúng tôi bằng chuyển khoản ngân hàng sau khi hàng đã thông quan và trước khi chúng tôi giao hàng đến cảng đích."
+      },
+      "7": {
+        "question": "Kho của bạn ở đâu tại Trung Quốc?",
+        "answer": "Chúng tôi có kho riêng tại thành phố Thâm Quyến và Thượng Hải."
+      },
+      "8": {
+        "question": "Chúng tôi có nhiều nhà cung cấp cũng xuất hàng đến cùng một cảng đích; Bạn có thể gộp hàng vận chuyển cùng nhau không?",
+        "answer": "Có, bạn có thể. Bằng cách này, mỗi nhà cung cấp có thể tiết kiệm chi phí vận chuyển."
+      }
+    }
+  }
 }

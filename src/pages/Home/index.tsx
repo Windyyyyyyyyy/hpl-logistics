@@ -1,7 +1,17 @@
+import About from '../About';
+import { Blog, FeatureSlider, GetQuote, MainFeature, MainSlider } from './components';
+
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <MainSlider />
+      <FeatureSlider />
+      <MainFeature />
+      <Blog />
+      <GetQuote />
+      <About />
+    </>
+  );
+};
 
-export default Home
+export default Home;
