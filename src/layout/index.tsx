@@ -4,7 +4,7 @@ import { Link, Outlet } from 'react-router';
 
 const UserLayout = () => {
   return (
-    <header>
+    <div>
       <div className="flex justify-center px-0 py-[18px]">
         <div className="flex h-full w-[1080px] items-center justify-between px-[15px]">
           <div className="inline-block leading-[55px]">
@@ -39,7 +39,7 @@ const UserLayout = () => {
           </div>
         </div>
       </div>
-      <div className="sticky left-0 right-0 top-0 z-50 w-full bg-[#052c7d] shadow-lg">
+      <header className="sticky left-0 right-0 top-0 z-50 w-full bg-[#052c7d] shadow-lg">
         <nav className="h-full w-full border-none bg-transparent">
           <div className="mx-auto flex h-full w-[1080px] justify-between px-[15px]">
             <ul className="flex items-center">
@@ -129,8 +129,8 @@ const UserLayout = () => {
             </ul>
           </div>
         </nav>
-      </div>
-      <main className="">
+      </header>
+      <main className="w-full">
         <Outlet />
       </main>
       <footer className="bg-[url(./assets/images/footer-bg.jpg)] bg-cover bg-scroll bg-center bg-no-repeat px-0 pb-[56px] pt-[88px]">
@@ -267,7 +267,7 @@ const UserLayout = () => {
           </div>
         </div>
       </footer>
-    </header>
+    </div>
   );
 };
 

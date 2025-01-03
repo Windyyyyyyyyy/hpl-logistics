@@ -65,14 +65,14 @@ const MainSlider = () => {
               <div className="z-10 mb-4 space-x-2">
                 <button
                   onClick={prevSlideBtn}
-                  className="rounded bg-white p-3 transition-colors hover:bg-[#2761d8] hover:text-white"
+                  className="hover:bg-custom-blue rounded bg-white p-3 transition-colors hover:text-white"
                   aria-label="Previous slide"
                 >
                   <FaChevronLeft size={20} />
                 </button>
                 <button
                   onClick={nextSlideBtn}
-                  className="rounded bg-white p-3 transition-colors hover:bg-[#2761d8] hover:text-white"
+                  className="hover:bg-custom-blue rounded bg-white p-3 transition-colors hover:text-white"
                   aria-label="Next slide"
                 >
                   <FaChevronRight size={20} />

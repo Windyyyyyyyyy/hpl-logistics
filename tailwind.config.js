@@ -14,6 +14,12 @@ export default {
         h2: '32px',
         h1: '40px',
       },
+      colors: {
+        'custom-blue': '#2761d8',
+      },
+      boxShadow: {
+        'featured-card': '0px 0px 14px rgba(136, 159, 229, 0.2)',
+      },
     },
   },
   plugins: [],
