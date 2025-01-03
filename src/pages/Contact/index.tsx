@@ -1,4 +1,4 @@
-import { ref, push, set } from 'firebase/database';
+// import { ref, push, set } from 'firebase/database';
 import React, { useState } from 'react';
 // import { database } from './firebase';
 import { useTranslation } from 'react-i18next';
@@ -19,7 +19,7 @@ const Contact = () => {
     subject: '',
     message: '',
   });
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   // const handleSubmit = async (e: React.FormEvent) => {
   //   e.preventDefault();
