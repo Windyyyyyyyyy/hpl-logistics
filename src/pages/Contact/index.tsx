@@ -1,7 +1,6 @@
-import { ref, push, set } from 'firebase/database';
 import React, { useState } from 'react';
-import { database } from './firebase';
 import { useTranslation } from 'react-i18next';
+import { sendMessage } from '../../thirdparty/firebase/firebase';
 
 interface ContactMessage {
   name: string;
@@ -19,7 +18,7 @@ const Contact = () => {
     subject: '',
     message: ''
   });
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -30,11 +29,11 @@ const Contact = () => {
       isNew: true
     };
     try {
-      // Tạo một tham chiếu (reference) tới "messages"
-      const messagesRef = ref(database, 'messages');
-      // Thêm tài liệu mới
-      const newMessageRef = push(messagesRef);
-      await set(newMessageRef, message);
+      const isSend = await sendMessage(message);
+      if (!isSend) {
+        alert('Failed to send message');
+        return;
+      }
       alert('Message sent successfully!');
     } catch (error) {
       console.log('Error sending message:', error);
