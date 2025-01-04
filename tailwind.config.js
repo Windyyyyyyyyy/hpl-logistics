@@ -16,9 +16,11 @@ export default {
       },
       colors: {
         'custom-blue': '#2761d8',
+        'text-grey': '#58585a',
       },
       boxShadow: {
         'featured-card': '0px 0px 14px rgba(136, 159, 229, 0.2)',
+        'blog-card': '0px 0px 20px rgba(136, 159, 229, 0.25)',
       },
     },
   },

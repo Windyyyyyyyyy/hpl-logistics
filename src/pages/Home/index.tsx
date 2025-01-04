@@ -1,5 +1,5 @@
 import About from '../About';
-import { Blog, FeatureSlider, GetQuote, MainFeature, MainSlider } from './components';
+import { Blogs, FeatureSlider, GetQuote, MainFeature, MainSlider } from './components';
 
 const Home = () => {
   return (
@@ -7,7 +7,7 @@ const Home = () => {
       <MainSlider />
       <FeatureSlider />
       <MainFeature />
-      <Blog />
+      <Blogs />
       <GetQuote />
       <About />
     </>
