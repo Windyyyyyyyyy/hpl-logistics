@@ -32,7 +32,7 @@ const Blogs = () => {
           <h5 className="text-text-grey pb-2 text-body uppercase opacity-50">Latest News</h5>
           <h2 className="text-text-grey text-[30px] font-bold uppercase">From Our Blog</h2>
         </div>
-        <div className="flex">
+        <div className="-mx-[15px] flex">
           {blogs.map((blog, index) => (
             <BlogCard key={index} value={blog} />
           ))}

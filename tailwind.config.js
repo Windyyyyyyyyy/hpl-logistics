@@ -17,6 +17,8 @@ export default {
       colors: {
         'custom-blue': '#2761d8',
         'text-grey': '#58585a',
+        'custom-green': '#2ecc71',
+        'custom-grey': '#f5f7f9',
       },
       boxShadow: {
         'featured-card': '0px 0px 14px rgba(136, 159, 229, 0.2)',

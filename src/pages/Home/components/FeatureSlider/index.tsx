@@ -70,10 +70,10 @@ const FeatureSlider = () => {
               {services.map((service, index) => (
                 <div key={index} style={{ width: `${itemWidth}px` }}>
                   <div className="px-[18px]">
-                    <div className="shadow-featured-card mb-[15px] flex flex-col items-center bg-white px-[28px] pb-[30px] pt-[20px]">
+                    <div className="mb-[15px] flex flex-col items-center bg-white px-[28px] pb-[30px] pt-[20px] shadow-featured-card">
                       <img className="h-[47px]" src={service.image} />
                       <Link to="/">
-                        <h4 className="text-custom-blue mb-[22px] mt-[15px] px-0 text-h3 font-bold uppercase">
+                        <h4 className="mb-[22px] mt-[15px] px-0 text-h3 font-bold uppercase text-custom-blue">
                           {service.title}
                         </h4>
                       </Link>
@@ -88,13 +88,13 @@ const FeatureSlider = () => {
           </div>
           <div className="btnGroup">
             <div
-              className="hover:bg-custom-blue absolute left-[-60px] top-1/2 flex h-[42px] w-[42px] translate-y-[-50%] transform cursor-pointer items-center justify-center bg-[#f2f5fb] leading-[40px] transition-all duration-300 ease-linear hover:text-white"
+              className="absolute left-[-60px] top-1/2 flex h-[42px] w-[42px] translate-y-[-50%] transform cursor-pointer items-center justify-center bg-[#f2f5fb] leading-[40px] transition-all duration-300 ease-linear hover:bg-custom-blue hover:text-white"
               onClick={handlePrevSlide}
             >
               <FaAngleLeft size={15} />
             </div>
             <div
-              className="hover:bg-custom-blue absolute right-[-60px] top-1/2 flex h-[42px] w-[42px] translate-y-[-50%] transform cursor-pointer items-center justify-center bg-[#f2f5fb] leading-[40px] transition-all duration-300 ease-linear hover:text-white"
+              className="absolute right-[-60px] top-1/2 flex h-[42px] w-[42px] translate-y-[-50%] transform cursor-pointer items-center justify-center bg-[#f2f5fb] leading-[40px] transition-all duration-300 ease-linear hover:bg-custom-blue hover:text-white"
               onClick={handleNextSlide}
             >
               <FaAngleRight size={15} />
