@@ -1,34 +1,40 @@
 import { Link } from 'react-router';
+import Pointer from '../../../../assets/images/pointer.svg';
+import Warehouse from '../../../../assets/images/warehouse.svg';
+import Route from '../../../../assets/images/route.svg';
+import DeliveryTruck from '../../../../assets/images/delivery-truck2.svg';
+import Flight from '../../../../assets/images/flight.svg';
+import Telemarketer from '../../../../assets/images/telemarketer.svg';
 
 const MainFeature = () => {
   const media = [
     {
-      icon: '/src/assets/images/pointer.svg',
+      icon: Pointer,
       title: 'Global Logistics',
       description: 'FCL & LCL and Air Services',
     },
     {
-      icon: '/src/assets/images/warehouse.svg',
+      icon: Warehouse,
       title: 'Global Logistics',
       description: 'FCL & LCL and Air Services',
     },
     {
-      icon: '/src/assets/images/route.svg',
+      icon: Route,
       title: 'Global Logistics',
       description: 'FCL & LCL and Air Services',
     },
     {
-      icon: '/src/assets/images/delivery-truck2.svg',
+      icon: DeliveryTruck,
       title: 'Global Logistics',
       description: 'FCL & LCL and Air Services',
     },
     {
-      icon: '/src/assets/images/flight.svg',
+      icon: Flight,
       title: 'Global Logistics',
       description: 'FCL & LCL and Air Services',
     },
     {
-      icon: '/src/assets/images/telemarketer.svg',
+      icon: Telemarketer,
       title: 'Global Logistics',
       description: 'FCL & LCL and Air Services',
     },
@@ -56,7 +62,7 @@ const MainFeature = () => {
         </div>
       </div>
       <div className="w-[calc(50%-210px)]">
-        <img src="/src/assets/images/feature-right.jpg" alt="Feature right" />
+        <img src="/src/assets/images/feature-right.jpg" alt="Feature right" className="bg-white" />
       </div>
     </section>
   );

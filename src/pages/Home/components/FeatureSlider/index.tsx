@@ -1,41 +1,44 @@
 import { useState } from 'react';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import { Link } from 'react-router';
+import Aeroplane from '../../../../assets/images/aeroplane.svg';
+import Ship from '../../../../assets/images/ship.svg';
+import DeliveryTruck from '../../../../assets/images/delivery-truck.svg';
 
 const FeatureSlider = () => {
   const services = [
     {
-      image: '/src/assets/images/aeroplane.svg',
+      image: Aeroplane,
       title: 'Air Cargo',
       description:
         "Air freight is often used for high value and low volume shipments. It's the fastest way to ship goods internationally.",
     },
     {
-      image: '/src/assets/images/ship.svg',
+      image: Ship,
       title: 'Air Cargo',
       description:
         "Air freight is often used for high value and low volume shipments. It's the fastest way to ship goods internationally.",
     },
     {
-      image: '/src/assets/images/delivery-truck.svg',
+      image: DeliveryTruck,
       title: 'Air Cargo',
       description:
         "Air freight is often used for high value and low volume shipments. It's the fastest way to ship goods internationally.",
     },
     {
-      image: '/src/assets/images/aeroplane.svg',
+      image: Aeroplane,
       title: 'Air Cargo',
       description:
         "Air freight is often used for high value and low volume shipments. It's the fastest way to ship goods internationally.",
     },
     {
-      image: '/src/assets/images/aeroplane.svg',
+      image: Aeroplane,
       title: 'Air Cargo',
       description:
         "Air freight is often used for high value and low volume shipments. It's the fastest way to ship goods internationally.",
     },
     {
-      image: '/src/assets/images/ship.svg',
+      image: Ship,
       title: 'Air Cargo',
       description:
         "Air freight is often used for high value and low volume shipments. It's the fastest way to ship goods internationally.",
