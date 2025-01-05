@@ -5,35 +5,36 @@ import { Link, Outlet } from 'react-router';
 const UserLayout = () => {
   return (
     <div>
-      <div className="flex justify-center px-0 py-[18px]">
-        <div className="flex h-full w-[1080px] items-center justify-between px-[15px]">
-          <div className="inline-block leading-[55px]">
+      <div className="px-0 py-[18px]">
+        <div className="max-3sm:flex-col mx-auto flex h-full items-center justify-between px-[15px] transition-all duration-500 md:w-[750px] lg:w-[970px] xl:w-[1170px]">
+          <div className="max-3sm:mb-3 inline-block leading-[55px]">
             <Link to="/">
               <img
                 src="https://hopphatlog.com/wp-content/uploads/2022/01/logo-191-1.png"
                 alt="Logo HPL"
                 width={170}
                 height={50}
+                className="max-2sm:w-[140px]"
               />
             </Link>
           </div>
-          <div className="flex">
-            <section className="relative mr-[50px]">
+          <div className="flex items-center justify-center">
+            <section className="relative mr-[50px] max-lg:hidden">
               <span className="absolute right-[-25px] top-1/2 h-[43px] w-[1px] translate-y-[-50%] bg-[#f1f1f1]"></span>
               <h5 className="pb-2 text-sm-txt font-normal text-[#8f97a7]">Call us</h5>
               <h4 className="text-body font-normal text-[#0c1832]">(+84)009898789</h4>
             </section>
-            <section className="relative mr-[50px]">
+            <section className="relative mr-[50px] max-lg:hidden">
               <span className="absolute right-[-25px] top-1/2 h-[43px] w-[1px] translate-y-[-50%] bg-[#f1f1f1]"></span>
               <h5 className="pb-2 text-sm-txt font-normal text-[#8f97a7]">Working Hours</h5>
               <h4 className="text-body font-normal text-[#0c1832]">Mon - Fri 9am to 6pm</h4>
             </section>
-            <section className="relative mr-[50px]">
+            <section className="relative mr-[50px] max-lg:hidden">
               <span className="absolute right-[-25px] top-1/2 h-[43px] w-[1px] translate-y-[-50%] bg-[#f1f1f1]"></span>
               <h5 className="pb-2 text-sm-txt font-normal text-[#8f97a7]">Email us</h5>
               <h4 className="text-body font-normal text-[#0c1832]">hpl@gmail.com</h4>
             </section>
-            <button className="z-[2] overflow-hidden rounded-[5px] bg-[#2ecc71] px-[26px] py-0 text-center text-body leading-[47px] text-[#fff]">
+            <button className="max-2sm:px-[18px] max-2sm:text-sm-txt max-2sm:leading-[38px] z-[2] overflow-hidden rounded-[5px] bg-[#2ecc71] px-[26px] py-0 text-center text-body leading-[47px] text-[#fff]">
               <Link to="/request-quote">Request a Quote</Link>
             </button>
           </div>
