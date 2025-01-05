@@ -1,7 +1,8 @@
-// import { ref, push, set } from 'firebase/database';
+import { ref, push, set } from 'firebase/database';
 import React, { useState } from 'react';
-// import { database } from './firebase';
+import { database } from './firebase';
 import { useTranslation } from 'react-i18next';
+import { sendMessage } from '../../thirdparty/firebase/firebase';
 
 // interface ContactMessage {
 //   name: string;
@@ -19,27 +20,28 @@ const Contact = () => {
     subject: '',
     message: '',
   });
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
-  // const handleSubmit = async (e: React.FormEvent) => {
-  //   e.preventDefault();
-  //   const message: ContactMessage = {
-  //     ...formData,
-  //     createdAt: new Date(),
-  //     isNew: true,
-  //   };
-  //   try {
-  //     // Tạo một tham chiếu (reference) tới "messages"
-  //     // const messagesRef = ref(database, 'messages');
-  //     // Thêm tài liệu mới
-  //     const newMessageRef = push(messagesRef);
-  //     await set(newMessageRef, message);
-  //     alert('Message sent successfully!');
-  //   } catch (error) {
-  //     console.log('Error sending message:', error);
-  //     alert('Failed to send message');
-  //   }
-  // };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const message: ContactMessage = {
+      ...formData,
+      createdAt: new Date(),
+      isNew: true
+    };
+    try {
+      // Tạo một tham chiếu (reference) tới "messages"
+      const messagesRef = ref(database, 'messages');
+      // Thêm tài liệu mới
+      const newMessageRef = push(messagesRef);
+      await set(newMessageRef, message);
+      alert('Message sent successfully!');
+    } catch (error) {
+      console.log('Error sending message:', error);
+      alert('Failed to send message');
+    }
+  };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
