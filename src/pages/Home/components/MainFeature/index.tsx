@@ -5,6 +5,7 @@ import Route from '../../../../assets/images/route.svg';
 import DeliveryTruck from '../../../../assets/images/delivery-truck2.svg';
 import Flight from '../../../../assets/images/flight.svg';
 import Telemarketer from '../../../../assets/images/telemarketer.svg';
+import FeatureRight from '../../../../assets/images/feature-right.jpg';
 
 const MainFeature = () => {
   const media = [
@@ -62,7 +63,7 @@ const MainFeature = () => {
         </div>
       </div>
       <div className="w-[calc(50%-210px)]">
-        <img src="/src/assets/images/feature-right.jpg" alt="Feature right" className="bg-white" />
+        <img src={FeatureRight} alt="Feature right" className="bg-white" />
       </div>
     </section>
   );
