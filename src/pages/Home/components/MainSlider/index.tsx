@@ -50,7 +50,7 @@ const MainSlider = () => {
   }, [currentSlide]);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-gray-900">
+    <div className="relative h-[760px] w-full overflow-hidden bg-gray-900">
       {slides.map((slide, index) => (
         <div
           key={index}
@@ -58,28 +58,32 @@ const MainSlider = () => {
             currentSlide === index ? 'opacity-100' : 'opacity-0'
           }`}
         >
-          <img src={slide.image} alt={slide.title} className="h-full w-full object-cover" />
-          <div className="absolute inset-0 bg-black bg-opacity-50">
-            <div className="mx-[150px] flex h-full flex-col items-start justify-center overflow-hidden px-8">
+          <img
+            src={slide.image}
+            alt={slide.title}
+            className="h-full w-full bg-center bg-no-repeat object-cover"
+          />
+          <div className="absolute inset-0 flex h-full justify-center bg-black bg-opacity-50">
+            <div className="absolute flex h-full flex-col items-start justify-center overflow-hidden px-[15px] max-md:items-center md:w-[750px] lg:w-[970px] xl:w-[1170px]">
               {/* Button Next/Prev */}
               <div className="z-10 mb-4 space-x-2">
                 <button
                   onClick={prevSlideBtn}
-                  className="hover:bg-custom-blue rounded bg-white p-3 transition-colors hover:text-white"
+                  className="rounded bg-white p-3 transition-colors hover:bg-custom-blue hover:text-white"
                   aria-label="Previous slide"
                 >
                   <FaChevronLeft size={20} />
                 </button>
                 <button
                   onClick={nextSlideBtn}
-                  className="hover:bg-custom-blue rounded bg-white p-3 transition-colors hover:text-white"
+                  className="rounded bg-white p-3 transition-colors hover:bg-custom-blue hover:text-white"
                   aria-label="Next slide"
                 >
                   <FaChevronRight size={20} />
                 </button>
               </div>
               {/* Title Animation */}
-              <div className="mb-4 overflow-hidden">
+              <div className="mb-4 overflow-hidden max-md:text-center">
                 <h3
                   className={`transform text-xl text-gray-300 transition-all duration-[500ms] ${
                     currentSlide === index && !isAnimating
@@ -94,9 +98,9 @@ const MainSlider = () => {
               </div>
 
               {/* Heading Animation */}
-              <div className="mb-8 overflow-hidden">
+              <div className="mb-8 overflow-hidden max-md:text-center">
                 <h2
-                  className={`max-w-3xl transform text-xl font-bold text-white transition-all duration-[500ms] md:text-5xl ${
+                  className={`transform text-xl font-bold text-white transition-all duration-[500ms] md:text-5xl ${
                     currentSlide === index && !isAnimating
                       ? 'translate-y-0 opacity-100'
                       : currentSlide === index

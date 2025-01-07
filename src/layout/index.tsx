@@ -1,143 +1,19 @@
-import { FaFacebookF, FaInstagram, FaSearch } from 'react-icons/fa';
-import { MdLanguage } from 'react-icons/md';
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
+
 import { Link, Outlet } from 'react-router';
+import { Header } from './components';
 
 const UserLayout = () => {
   return (
-    <div>
-      <div className="px-0 py-[18px]">
-        <div className="max-3sm:flex-col mx-auto flex h-full items-center justify-between px-[15px] transition-all duration-500 md:w-[750px] lg:w-[970px] xl:w-[1170px]">
-          <div className="max-3sm:mb-3 inline-block leading-[55px]">
-            <Link to="/">
-              <img
-                src="https://hopphatlog.com/wp-content/uploads/2022/01/logo-191-1.png"
-                alt="Logo HPL"
-                width={170}
-                height={50}
-                className="max-2sm:w-[140px]"
-              />
-            </Link>
-          </div>
-          <div className="flex items-center justify-center">
-            <section className="relative mr-[50px] max-lg:hidden">
-              <span className="absolute right-[-25px] top-1/2 h-[43px] w-[1px] translate-y-[-50%] bg-[#f1f1f1]"></span>
-              <h5 className="pb-2 text-sm-txt font-normal text-[#8f97a7]">Call us</h5>
-              <h4 className="text-body font-normal text-[#0c1832]">(+84)009898789</h4>
-            </section>
-            <section className="relative mr-[50px] max-lg:hidden">
-              <span className="absolute right-[-25px] top-1/2 h-[43px] w-[1px] translate-y-[-50%] bg-[#f1f1f1]"></span>
-              <h5 className="pb-2 text-sm-txt font-normal text-[#8f97a7]">Working Hours</h5>
-              <h4 className="text-body font-normal text-[#0c1832]">Mon - Fri 9am to 6pm</h4>
-            </section>
-            <section className="relative mr-[50px] max-lg:hidden">
-              <span className="absolute right-[-25px] top-1/2 h-[43px] w-[1px] translate-y-[-50%] bg-[#f1f1f1]"></span>
-              <h5 className="pb-2 text-sm-txt font-normal text-[#8f97a7]">Email us</h5>
-              <h4 className="text-body font-normal text-[#0c1832]">hpl@gmail.com</h4>
-            </section>
-            <button className="max-2sm:px-[18px] max-2sm:text-sm-txt max-2sm:leading-[38px] z-[2] overflow-hidden rounded-[5px] bg-[#2ecc71] px-[26px] py-0 text-center text-body leading-[47px] text-[#fff]">
-              <Link to="/request-quote">Request a Quote</Link>
-            </button>
-          </div>
-        </div>
-      </div>
-      <header className="sticky left-0 right-0 top-0 z-50 w-full bg-[#052c7d] shadow-lg">
-        <nav className="h-full w-full border-none bg-transparent">
-          <div className="mx-auto flex h-full w-[1080px] justify-between px-[15px]">
-            <ul className="flex items-center">
-              <li className="mr-[18px] h-full">
-                <Link
-                  to="/"
-                  className="group relative flex h-full items-center bg-transparent text-sm font-normal uppercase leading-[67px] text-white"
-                  aria-current="page"
-                >
-                  <span className="absolute bottom-4 right-0 h-[2px] w-0 bg-white transition-all duration-300 ease-in-out group-hover:left-0 group-hover:w-full"></span>
-                  Home
-                </Link>
-              </li>
-              <li className="mr-[18px] h-full">
-                <Link
-                  to="/about"
-                  className="group relative flex h-full items-center bg-transparent text-sm font-normal uppercase leading-[67px] text-white"
-                  aria-current="page"
-                >
-                  About
-                  <span className="absolute bottom-4 right-0 h-[2px] w-0 bg-white transition-all duration-300 ease-in-out group-hover:left-0 group-hover:w-full"></span>
-                </Link>
-              </li>
-              <li className="mr-[18px] h-full">
-                <Link
-                  to="/services"
-                  className="group relative flex h-full items-center bg-transparent text-sm font-normal uppercase leading-[67px] text-white"
-                  aria-current="page"
-                >
-                  Services
-                  <span className="absolute bottom-4 right-0 h-[2px] w-0 bg-white transition-all duration-300 ease-in-out group-hover:left-0 group-hover:w-full"></span>
-                </Link>
-              </li>
-              <li className="mr-[18px] h-full">
-                <Link
-                  to="/contact"
-                  className="group relative flex h-full items-center bg-transparent text-sm font-normal uppercase leading-[67px] text-white"
-                  aria-current="page"
-                >
-                  Contact
-                  <span className="absolute bottom-4 right-0 h-[2px] w-0 bg-white transition-all duration-300 ease-in-out group-hover:left-0 group-hover:w-full"></span>
-                </Link>
-              </li>
-            </ul>
-            <ul className="flex items-center">
-              <li className="mr-5 flex h-full items-center">
-                <div className="relative">
-                  <input
-                    type="text"
-                    className="h-[37px] rounded-[5px] border-none bg-[#092767] py-0 pl-[8px] pr-[30px] font-normal text-[#fff] focus:outline-none"
-                    placeholder="Search here..."
-                  />
-                  <span className="absolute right-0 top-0 h-full">
-                    <button
-                      type="button"
-                      className="absolute right-3 z-[5] h-full border-none bg-transparent p-0 text-white"
-                    >
-                      <FaSearch />
-                    </button>
-                  </span>
-                </div>
-              </li>
-              <li className="h-full">
-                <div className="flex h-full items-center">
-                  <span className="mr-1 text-white">
-                    <MdLanguage size={23} />
-                  </span>
-                  <div className="text-white">
-                    <select
-                      name="language"
-                      id="language"
-                      className="cursor-pointer rounded-md border-none bg-transparent py-1 text-white transition-colors duration-200 focus:outline-none"
-                    >
-                      <option value="vietnam" className="bg-white text-black">
-                        Vi
-                      </option>
-                      <option value="english" className="bg-white text-black">
-                        En
-                      </option>
-                      <option value="chinese" className="bg-white text-black">
-                        Zh
-                      </option>
-                    </select>
-                  </div>
-                </div>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
+    <>
+      <Header />
       <main className="w-full">
         <Outlet />
       </main>
       <footer className="bg-[url(./assets/images/footer-bg.jpg)] bg-cover bg-scroll bg-center bg-no-repeat px-0 pb-[56px] pt-[88px]">
         <div className="flex justify-center">
-          <div className="flex w-[1080px] justify-evenly px-[15px]">
-            <aside className="flex w-full flex-col px-[15px]">
+          <div className="mx-auto flex flex-wrap justify-center px-[15px] md:w-[750px] lg:w-[970px] xl:w-[1170px]">
+            <aside className="3sm:w-1/2 flex w-full flex-col px-[15px] py-[30px] md:w-1/3 lg:w-1/4">
               <div className="mb-[32px]">
                 <h2 className="text-sub-heading font-normal text-white">Quick Links</h2>
               </div>
@@ -145,7 +21,7 @@ const UserLayout = () => {
                 <li>
                   <Link
                     to="/"
-                    className="<Link></Link>-normal text-sm uppercase leading-[30px] text-[rgba(255,255,255,0.7)] transition-all duration-300 ease-linear hover:text-white"
+                    className="text-sm font-normal uppercase leading-[30px] text-[rgba(255,255,255,0.7)] transition-all duration-300 ease-linear hover:text-white"
                   >
                     Home
                   </Link>
@@ -153,7 +29,7 @@ const UserLayout = () => {
                 <li>
                   <Link
                     to="/"
-                    className="<Link></Link>-normal text-sm uppercase leading-[30px] text-[rgba(255,255,255,0.7)] transition-all duration-300 ease-linear hover:text-white"
+                    className="text-sm font-normal uppercase leading-[30px] text-[rgba(255,255,255,0.7)] transition-all duration-300 ease-linear hover:text-white"
                   >
                     About
                   </Link>
@@ -161,7 +37,7 @@ const UserLayout = () => {
                 <li>
                   <Link
                     to="/"
-                    className="<Link></Link>-normal text-sm uppercase leading-[30px] text-[rgba(255,255,255,0.7)] transition-all duration-300 ease-linear hover:text-white"
+                    className="text-sm font-normal uppercase leading-[30px] text-[rgba(255,255,255,0.7)] transition-all duration-300 ease-linear hover:text-white"
                   >
                     Services
                   </Link>
@@ -169,14 +45,14 @@ const UserLayout = () => {
                 <li>
                   <Link
                     to="/"
-                    className="text-sm<Link></Link>-normal uppercase leading-[30px] text-[rgba(255,255,255,0.7)] transition-all duration-300 ease-linear hover:text-white"
+                    className="text-sm font-normal uppercase leading-[30px] text-[rgba(255,255,255,0.7)] transition-all duration-300 ease-linear hover:text-white"
                   >
                     Contact
                   </Link>
                 </li>
               </ul>
             </aside>
-            <aside className="flex w-full flex-col px-[15px]">
+            <aside className="3sm:w-1/2 flex w-full flex-col px-[15px] py-[30px] md:w-1/3 lg:w-1/4">
               <div className="mb-[32px]">
                 <h2 className="text-sub-heading font-normal text-white">Services</h2>
               </div>
@@ -215,18 +91,18 @@ const UserLayout = () => {
                 </li>
               </ul>
             </aside>
-            <aside className="flex w-full flex-col px-[15px]">
+            <aside className="2sm:w-1/2 flex w-full flex-col px-[15px] py-[30px] md:w-1/3 lg:w-1/4">
               <div className="mb-[32px]">
                 <h2 className="text-sub-heading font-normal text-white">Contact</h2>
               </div>
-              <p className="text-body font-normal text-[rgba(255,255,255,0.7)]">
+              <p className="text-ellipsis text-body font-normal text-[rgba(255,255,255,0.7)]">
                 Address: 123 Main Street, New York, NY 10001
               </p>
               <p className="text-body font-normal leading-[30px] text-[rgba(255,255,255,0.7)]">
                 Email:
               </p>
             </aside>
-            <aside className="flex w-full flex-col px-[15px]">
+            <aside className="2sm:w-1/2 flex w-full flex-col px-[15px] py-[30px] md:w-1/3 lg:w-1/4">
               <div className="mb-[32px]">
                 <h2 className="text-h3 font-normal text-[rgba(255,255,255,0.7)]">
                   Hoa Phat Logistics
@@ -268,7 +144,7 @@ const UserLayout = () => {
           </div>
         </div>
       </footer>
-    </div>
+    </>
   );
 };
 
