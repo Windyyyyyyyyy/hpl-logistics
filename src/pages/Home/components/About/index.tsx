@@ -18,11 +18,11 @@ const About = () => {
 
   return (
     <section className="bg-[#f5f7f9] py-[100px]">
-      <div className="mx-auto w-[1170px] px-[15px]">
-        <div className="-mx-[15px] flex">
-          <div className="w-full px-[15px]">
-            <div className="">
-              <h3 className="text-text-grey pb-[48px] text-[30px] font-bold uppercase">
+      <div className="mx-auto px-[15px] md:w-[750px] lg:w-[970px] xl:w-[1170px]">
+        <div className="-mx-[15px] flex flex-col lg:flex-row">
+          <div className="w-full px-[15px] max-lg:mb-[40px]">
+            <div className="w-full">
+              <h3 className="pb-[48px] text-[30px] font-bold uppercase text-text-grey">
                 {aboutObject.aboutUs.title}
               </h3>
               <p className="pb-[30px] text-justify text-body font-normal leading-[30px] text-black">
@@ -45,7 +45,7 @@ const About = () => {
             </div>
           </div>
           <div className="w-full px-[15px]">
-            <h4 className="text-text-grey pb-[48px] text-[30px] font-bold uppercase">
+            <h4 className="pb-[48px] text-[30px] font-bold uppercase text-text-grey">
               {aboutObject.ourLocation.title}
             </h4>
             <div className="aspect-[16x9] h-[320px] bg-gray-200">

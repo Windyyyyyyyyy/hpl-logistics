@@ -27,7 +27,7 @@ const BlogCard = ({ value }: StateProps) => {
               {value.title}
             </h4>
           </Link>
-          <p className="text-text-grey px-0 pb-[20px] pt-[13px] text-justify text-[15px] leading-[26px]">
+          <p className="px-0 pb-[20px] pt-[13px] text-justify text-[15px] leading-[26px] text-text-grey">
             {value.description}
           </p>
         </div>
