@@ -8,12 +8,12 @@ const PageNotFound = () => {
       <div className="mx-auto max-w-lg text-center">
         {/* 404 Number */}
         <h1 className="text-[120px] font-bold leading-none text-gray-800 sm:text-[180px] md:text-[220px]">
-          {t('404.code')}
+          {t('404.title')}
         </h1>
 
         {/* Not Found Text */}
         <h2 className="mb-4 text-2xl font-medium text-gray-600 sm:text-3xl md:text-4xl">
-          {t('404.not_found_text')}
+          {t('404.text')}
         </h2>
 
         {/* Error Message */}
