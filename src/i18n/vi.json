@@ -1,4 +1,48 @@
 {
+  "home": {
+    "header": {
+      "call_us": {
+        "label": "Số điện thoại",
+        "value": "(+84)009898789"
+      },
+      "working_hours": {
+        "label": "Giờ làm việc",
+        "value": "Thứ 2 - 7  9 đến 18 giờ"
+      },
+      "email": {
+        "label": "Email",
+        "value": "hpl@gmail.com"
+      },
+      "request_button": "Gửi báo giá",
+      "home": "Trang chủ",
+      "services": "Dịch vụ",
+      "about": "Giới thiệu",
+      "contact": "Liên hệ",
+      "search_placeholder": "Tìm kiếm",
+      "language_mode": {
+        "vi": "Tiếng Việt (Vi)",
+        "en": "Tiếng Anh (En)",
+        "zh": "Tiếng Trung (Zh)"
+      }
+    },
+    "content": {
+      "main_slider": {},
+      "feature_slider": {},
+      "main_feature": {},
+      "blogs": {},
+      "get_quote": {},
+      "quotation": {},
+      "about": {},
+      "gallery": {},
+      "client_logo": {}
+    },
+    "footer": {
+      "quick_links": {},
+      "services": {},
+      "contact": {},
+      "about": ""
+    }
+  },
   "contact_us": {
     "title": "Liên Hệ",
     "contact_form": {
